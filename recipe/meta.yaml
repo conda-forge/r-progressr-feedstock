@@ -1,4 +1,4 @@
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/progressr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/progressr/progressr_{{ version }}.tar.gz
-  sha256: 90646507e38d7982ccfef8e1c34d3b6746c523f6e3673ed7f5d197997f592b37
+  sha256: 8224d397cea450d97a08ed94ecc76f6e46fd46faa89882834e71b654ba07f7d4
 
 build:
   merge_build_host: true  # [win]
