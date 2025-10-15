@@ -1,4 +1,4 @@
-{% set version = "0.16.0" %}
+{% set version = "0.17.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/progressr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/progressr/progressr_{{ version }}.tar.gz
-  sha256: 310eaeb29b409c0bedfb526e48cdbca0db65797285ac3a2c24ed2d910de7ba60
+  sha256: 971a91d13a07e7f06c2a99074028660e14468c9f6f2eb56965a226b6cf9235e1
 
 build:
   number: 0
